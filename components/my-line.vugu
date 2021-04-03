@@ -1,0 +1,10 @@
+<li class="test">
+	<strong vg-content='c.FileName'></strong>:<span vg-content='c.LineNumber'></span>
+</li>
+
+<script type="application/x-go">
+type MyLine struct {
+	FileName   string `vugu:"data"`
+	LineNumber int64  `vugu:"data"`
+}
+</script>

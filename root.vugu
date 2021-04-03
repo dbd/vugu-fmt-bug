@@ -1,0 +1,10 @@
+<div class="root">
+    <ul>
+      <components:MyLine FileName="example.txt" :LineNumber="rand.Int63n(100)" ></components:MyLine>
+    </ul>
+</div>
+
+<script type="application/x-go">
+import "math/rand"
+import "github.com/dbd/simple/components"
+</script>
